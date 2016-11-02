@@ -32,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
                 IntentIntegrator integrator = new IntentIntegrator(MainActivity.this);
                 integrator.setOrientationLocked(false);
                 integrator.setBeepEnabled(false);
+//                integrator.setBarcodeImageEnabled();
+//                integrator.setCameraId();
+//                integrator.setCaptureActivity();
+//                integrator.setDesiredBarcodeFormats();
+//                integrator.setPrompt();
+//                integrator.setTimeout();
                 integrator.initiateScan();
 
             }
