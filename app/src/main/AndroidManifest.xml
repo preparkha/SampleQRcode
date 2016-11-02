@@ -29,6 +29,10 @@
             android:screenOrientation="fullSensor"
             tools:replace="screenOrientation" />
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="94710821aba0e871c001a06d527138d9c8b3e416" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
